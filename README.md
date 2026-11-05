@@ -23,7 +23,7 @@ git clone --depth 1 https://github.com/YounghwanKil/cofa-personal-playbook.git .
 .cofa-playbook은 참고 자료 폴더이며 구현 대상이 아니다.
 .cofa-playbook/START_HERE.md를 읽고 1번 시작 프롬프트를 적용해라.
 현재 남은 시간은 [예: 180분]이다.
-.cofa-playbook/docs/08-지난시험질문사례.md를 참고해 실제 구현 설명 근거도 남겨라.
+.cofa-playbook/docs/08-기출유형기반예상질문.md를 참고해 실제 구현 설명 근거도 남겨라.
 공식 README·AGENTS·응시 지침이 우선이며, 기존 스택과 실행 방식을 확인해라.
 과제 폴더에 계획과 실제 구현 근거를 남기고 구현·검증까지 진행해라.
 이 자료 폴더나 원격 준비 저장소에 실제 과제 코드·고객 답변·작업 기록을 올리지 마라.
@@ -33,7 +33,7 @@ git clone --depth 1 https://github.com/YounghwanKil/cofa-personal-playbook.git .
 ## 자료
 
 - [처음부터 마무리까지 복붙 순서](QUICKSTART.md)
-- [사용자 제공 지난 시험 질문 7개와 준비할 근거](docs/08-지난시험질문사례.md)
+- [과거 기출 유형 기반 예상 질문 7개와 준비할 근거](docs/08-기출유형기반예상질문.md)
 
 - [시작 및 상황별 복붙 프롬프트](START_HERE.md)
 - [6쪽 PDF 실행 플레이북](pdf/COFA_PLAYBOOK.pdf)
