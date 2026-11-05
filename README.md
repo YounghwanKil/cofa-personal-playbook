@@ -2,6 +2,8 @@
 
 낯선 개발 과제를 요구 분석 → 첫 동작 흐름 → 독립 작업 병렬화 → 통합 검증 → 구현 설명 연습으로 진행하는 한국어 준비 자료입니다. 공식 키트나 출제 예측 자료가 아닙니다.
 
+**바로 따라 하기: [시험장 복붙 순서 QUICKSTART.md](QUICKSTART.md)**
+
 ## 시험장 시작: 터미널에 입력
 
 **제공된 과제의 최상위 폴더에서** 실행합니다. clone 후에도 과제 폴더에 그대로 머무릅니다.
@@ -21,6 +23,7 @@ git clone --depth 1 https://github.com/YounghwanKil/cofa-personal-playbook.git .
 .cofa-playbook은 참고 자료 폴더이며 구현 대상이 아니다.
 .cofa-playbook/START_HERE.md를 읽고 1번 시작 프롬프트를 적용해라.
 현재 남은 시간은 [예: 180분]이다.
+.cofa-playbook/docs/08-지난시험질문사례.md를 참고해 실제 구현 설명 근거도 남겨라.
 공식 README·AGENTS·응시 지침이 우선이며, 기존 스택과 실행 방식을 확인해라.
 과제 폴더에 계획과 실제 구현 근거를 남기고 구현·검증까지 진행해라.
 이 자료 폴더나 원격 준비 저장소에 실제 과제 코드·고객 답변·작업 기록을 올리지 마라.
@@ -28,6 +31,9 @@ git clone --depth 1 https://github.com/YounghwanKil/cofa-personal-playbook.git .
 ```
 
 ## 자료
+
+- [처음부터 마무리까지 복붙 순서](QUICKSTART.md)
+- [사용자 제공 지난 시험 질문 7개와 준비할 근거](docs/08-지난시험질문사례.md)
 
 - [시작 및 상황별 복붙 프롬프트](START_HERE.md)
 - [6쪽 PDF 실행 플레이북](pdf/COFA_PLAYBOOK.pdf)
