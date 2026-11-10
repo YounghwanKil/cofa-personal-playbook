@@ -1,0 +1,7 @@
+job_id,family,release,duration,due,weight
+J1,A,0,30,40,1
+J2,B,0,25,30,4
+J3,A,10,20,35,2
+J4,B,20,15,65,3
+J5,A,30,10,50,2
+J6,B,60,20,85,1

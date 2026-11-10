@@ -8,6 +8,12 @@
 
 추가 자료: [6쪽 PDF 운영안](pdf/COFA_PLAYBOOK.pdf) · [빈 설명 양식](templates/PROJECT_DEFENSE.md)
 
+## 본선 준비
+
+본선은 **[FINALS.md](FINALS.md)**에서 시작합니다. 문제 정의·기준선 비교·유형별 검증·제출과 시연을 보강했습니다. 예선용 QUICKSTART는 그대로 유지합니다. [90분 합성 연습 문제](practice/BRIEF.md)로 리허설할 수 있습니다.
+
+기존 PDF는 예선 운영안이며 이번 본선 추가 내용을 포함하지 않습니다.
+
 ## 자료 받기
 
 제공된 과제 루트에서 실행하고 그 위치에 머무릅니다.
