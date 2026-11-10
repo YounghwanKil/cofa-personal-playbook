@@ -2,7 +2,7 @@
 
 기본 흐름: A 분석·계획 → 사용자 검토·운영진 답변 → 명시적 구현 시작 → 병렬 구현·통합 → B 검증 → A 수정 → C 기록·복습. 실제 복붙 순서는 QUICKSTART.md를 따른다.
 
-본선에서 FINALS.md로 시작한 경우 세션 운영은 FINALS.md와 FINALS 역할별 프롬프트를 우선한다. B는 PLAN·HANDOFF를 과제 루트에서 읽고 실행만 격리 사본에서 하며, REVIEW는 과제 루트에 기록한다. 예선 QUICKSTART 운영은 아래 규칙을 유지한다.
+본선에서 FINALS.md로 시작한 경우 세션 운영은 FINALS.md와 FINALS 역할별 프롬프트를 우선한다. 본선 B의 실행 경로와 기록은 FINALS_B.md를 따른다. 예선 QUICKSTART 운영은 아래 규칙을 유지한다.
 
 ## 1. 계획 단계의 경계
 
