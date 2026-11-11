@@ -1,6 +1,14 @@
+> **먼저 [SECURITY_RULES.md](SECURITY_RULES.md)를 읽으세요.** 최우선: SECURITY_RULES.md를 먼저 읽어라. 준비 단계 Git push는 허용하되 실제 문제를 본 이후 Git push·외부 전송·게시·공유는 금지한다. 허용된 Codex와 로컬 Playwright E2E는 사용 가능하다. Computer use·캡처/녹화/스냅샷/트레이스·보안 우회는 금지한다.
+
 # 본선 QUICKSTART: 구현 + 발표 HTML + 서술형
 
 **15:00 문제 풀이 결과물과 발표용 HTML 제출 / 15:30 서술형 제출.** 사용자 제공 최신 일정 기준이며 현장 지침이 변경되면 갱신한다. 예전 16:00 기준은 제출 계획에 사용하지 않는다. 시간대는 Asia/Seoul이다.
+
+## 시작 전 선택: 디자인 스킬
+
+실제 문제의 내용은 이 공개 준비 저장소에 기록하지 않는다. [현업 UX 점검](docs/FIELD_UX.md)을 우선한다.
+[스킬 목록](docs/DESIGN_SKILLS.md)과 [설치 복붙 TXT](DESIGN_SKILLS_START.txt)를 참고한다.
+최소 후보는 frontend-design + playwright다. 설치는 공식 도구 허용과 실행 환경을 확인한 뒤 한다.
 
 ## 0. 자료 받기와 세션 구성
 

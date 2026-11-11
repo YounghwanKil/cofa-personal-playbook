@@ -1,0 +1,41 @@
+최우선: SECURITY_RULES.md를 먼저 읽어라. 준비 단계 Git push는 허용하되 실제 문제를 본 이후 Git push·외부 전송·게시·공유는 금지한다. 허용된 Codex와 로컬 Playwright E2E는 사용 가능하다. Computer use·캡처/녹화/스냅샷/트레이스·보안 우회는 금지한다.
+
+디자인 스킬 시작 명령 — 터미널에 아래 괄호 블록만 붙이세요.
+기존 Codex 사용자 스킬 경로에 설치합니다. 아직 실행하지 않은 명령입니다.
+Git/Python 3와 Codex의 skill-installer가 필요합니다. 기존 스킬은 유지합니다.
+
+(
+set -eu
+COFA_SKILLS_DIR="${CODEX_HOME:-$HOME/.codex}/skills"
+COFA_INSTALLER="$COFA_SKILLS_DIR/.system/skill-installer/scripts/install-skill-from-github.py"
+test -f "$COFA_INSTALLER" || { echo 'skill-installer를 찾지 못했습니다. Codex에서 해당 스킬 설치를 요청하세요.'; exit 1; }
+if [ -d "$COFA_SKILLS_DIR/frontend-design" ]; then
+  echo 'frontend-design 이미 존재: 유지'
+else
+  python3 "$COFA_INSTALLER" --repo anthropics/skills --path skills/frontend-design --method git
+fi
+if [ -d "$COFA_SKILLS_DIR/playwright" ]; then
+  echo 'playwright 이미 존재: 유지'
+else
+  python3 "$COFA_INSTALLER" --repo openai/skills --path skills/.curated/playwright --method git
+fi
+test -f "$COFA_SKILLS_DIR/frontend-design/SKILL.md"
+test -f "$COFA_SKILLS_DIR/playwright/SKILL.md"
+if command -v npx >/dev/null 2>&1; then
+  echo 'npx 확인됨. 브라우저 실행은 별도로 검사해야 합니다.'
+else
+  echo 'npx 없음. playwright 실행에는 Node/npm 준비가 필요합니다.'
+fi
+echo '스킬 파일 확인 완료. 다음 턴에서 인식 여부를 확인하세요.'
+)
+
+설치 후 AI 대화창에:
+
+frontend-design과 playwright 스킬이 사용 가능한지 확인해라.
+실제 서비스 주제는 허용된 로컬 과제에서 확인하고 공개 저장소에는 기록하지 마라. 먼저 현업자의 판단 과정과 실제 불편을
+과제 자료에서 파악하고 확인 사실·가정·질문을 구분해라.
+준비 자료 docs/FIELD_UX.md와 docs/DESIGN_SKILLS.md를 읽고,
+A가 공통 시각 규칙과 사용자 흐름을 정한 뒤 W 서비스 UI와 H 발표 HTML에 적용해라.
+분석 결과와 근거를 쉽게 비교하게 하되 원인 확정이나 성능 수치를 지어내지 마라.
+브라우저 도구가 실행 가능한지 확인하고 UI·HTML을 실제 검사해라.
+15:00 제품+HTML, 15:30 서술형 마감을 우선해라.

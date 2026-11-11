@@ -1,3 +1,5 @@
+> **먼저 [SECURITY_RULES.md](SECURITY_RULES.md)를 읽으세요.** 최우선: SECURITY_RULES.md를 먼저 읽어라. 준비 단계 Git push는 허용하되 실제 문제를 본 이후 Git push·외부 전송·게시·공유는 금지한다. 허용된 Codex와 로컬 Playwright E2E는 사용 가능하다. Computer use·캡처/녹화/스냅샷/트레이스·보안 우회는 금지한다.
+
 # 본선 운영 정본
 
 **전체 사용 흐름은 [QUICKSTART.md](QUICKSTART.md)**에서 시작한다.

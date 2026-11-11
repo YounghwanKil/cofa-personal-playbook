@@ -1,3 +1,5 @@
+> **먼저 [SECURITY_RULES.md](SECURITY_RULES.md)를 읽으세요.** 최우선: SECURITY_RULES.md를 먼저 읽어라. 준비 단계 Git push는 허용하되 실제 문제를 본 이후 Git push·외부 전송·게시·공유는 금지한다. 허용된 Codex와 로컬 Playwright E2E는 사용 가능하다. Computer use·캡처/녹화/스냅샷/트레이스·보안 우회는 금지한다.
+
 # COFA 운영 규칙 · 예선 기본 규칙
 
 본선 최신 정본은 QUICKSTART.md다. 15:00 제품+HTML, 15:30 서술형과 H 세션 지침을 우선한다. 아래 예선의 세션 수·시간 예시는 본선에 그대로 적용하지 않는다.

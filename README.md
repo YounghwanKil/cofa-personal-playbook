@@ -1,3 +1,5 @@
+> **먼저 [SECURITY_RULES.md](SECURITY_RULES.md)를 읽으세요.** 최우선: SECURITY_RULES.md를 먼저 읽어라. 준비 단계 Git push는 허용하되 실제 문제를 본 이후 Git push·외부 전송·게시·공유는 금지한다. 허용된 Codex와 로컬 Playwright E2E는 사용 가능하다. Computer use·캡처/녹화/스냅샷/트레이스·보안 우회는 금지한다.
+
 # COFA 개인 플레이북 · 제한시간 문제 해결
 
 **본선 마감: 15:00 제품+발표 HTML, 15:30 서술형. [전체 퀵스타트](QUICKSTART.md) · [HTML 세션 프롬프트](prompts/FINALS_H.md).**
@@ -11,6 +13,8 @@
 추가 자료: [6쪽 PDF 운영안](pdf/COFA_PLAYBOOK.pdf) · [빈 설명 양식](templates/PROJECT_DEFENSE.md)
 
 ## 본선 준비
+
+특정 문제 내용을 포함하지 않는 일반 준비 자료. [현업 UX](docs/FIELD_UX.md) · [디자인 스킬 목록](docs/DESIGN_SKILLS.md) · [설치 명령](DESIGN_SKILLS_START.txt).
 
 본선은 **[FINALS.md](FINALS.md)**에서 시작합니다. 반도체 현장 문제의 데이터·제약 확인과 유형별 검증을 보강했습니다. A가 PLAN에서 계약과 작업 경계를 정하고 승인 후 독립 작업을 Worktree로 병렬 구현합니다. A 통합 후 B가 고정 버전을 검증하며, 병렬화 이득이 작으면 순차 구현합니다. [현장 복붙 TXT](FIELD_START.txt) · [AI 첫 프롬프트 TXT](FIRST_PROMPT.txt)를 제공합니다. 예선 운영안은 docs/QUALIFIER_QUICKSTART.md에 보존하고 QUICKSTART를 본선 전체 흐름으로 갱신했습니다. [90분 합성 연습 문제](practice/BRIEF.md)로 리허설할 수 있습니다.
 
